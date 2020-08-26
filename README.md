@@ -106,6 +106,7 @@ body {
 }
 </style>
 </head>
+
 <body>
 
 <div class="header">
@@ -145,7 +146,7 @@ body {
     </div>
     <div class="card">
       <h3>Popular Post</h3>
-      <div class="fakeimg"><p>Image</p></div>
+      <div class="fakeimg"><p><img src="https://picsum.photos/id/1/200/300"></p></div>
       <div class="fakeimg"><p>Image</p></div>
       <div class="fakeimg"><p>Image</p></div>
     </div>
