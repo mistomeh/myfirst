@@ -1,165 +1,198 @@
- 
-<html>
-<head>
-<style>
-* {
-  box-sizing: border-box;
-}
 
-body {
-  font-family: Arial;
-  padding: 10px;
-  background: #f1f1f1;
-}
+<!DOCTYPE html><html dir="rtl" lang="he" class=" home_page home_page_design s_layout1 isFreePackage  "><head> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="viewport" content="width=device-width, initial-scale=1"> <meta charset="utf-8"> <link rel="dns-prefetch preconnect" href="https://cdn-cms-s.f-static.net" crossorigin="anonymous"/> <link rel="dns-prefetch preconnect" href="https://cdn-cms-s.f-static.net" crossorigin="anonymous"/> <link rel="dns-prefetch preconnect" href="https://cdn-cms.f-static.net" crossorigin="anonymous"/> <link rel="dns-prefetch preconnect" href="https://fonts.googleapis.com" crossorigin="anonymous"/> <link rel="dns-prefetch preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"/> <link rel="dns-prefetch preconnect" href="https://cdn-cms-s.f-static.net" crossorigin="anonymous"/> <link rel="dns-prefetch preconnect" href="https://cdn-cms.f-static.net" crossorigin="anonymous"/> <link rel="preload" href="https://cdn-cms.f-static.net/ready_uploads/media/21173/2000_5cdbdfd1c7b2b.jpg" as="image"> <link rel="preload" href="//cdn-cms-s.f-static.net/files/font-awesome-4.7/fonts/fontawesome-webfont.woff2?v=4.7.0" as="font" type="font/woff2" crossorigin> <!-- Favicon --> <link rel="shortcut icon" href="//cdn-cms-s.f-static.net/manager/site123_website/files/logos/brand_files_2020/Icons/Png/Icon_blue.png?v=n6840" type="image/x-icon"> <link rel="icon" href="//cdn-cms-s.f-static.net/manager/site123_website/files/logos/brand_files_2020/Icons/Png/Icon_blue.png?v=n6840" type="image/x-icon"> <link rel="manifest" href="//cdn-cms-s.f-static.net/versions/2/css/manifest.json?w=&orderScreen=&websiteID=4129155&onlyContent=&tranW=&v=n6840_20309902&wd=5f44c7cfb1f37.site123.me"><!-- Status Bar --><meta name="apple-mobile-web-app-status-bar-style" content="default"><!-- 152px icon --><link rel="apple-touch-icon" sizes="152x152" href="//cdn-cms-s.f-static.net/ready_uploads/pwaScreenLogo/pwaImage.png?width=152&height=152&resizeType=pwaIcon&w=&orderScreen=&websiteID=4129155&tranW=&v=n6840_20309902"><!-- 180px icon --><link rel="apple-touch-icon" sizes="180x180" href="//cdn-cms-s.f-static.net/ready_uploads/pwaScreenLogo/pwaImage.png?width=180&height=180&resizeType=pwaIcon&w=&orderScreen=&websiteID=4129155&tranW=&v=n6840_20309902"><!-- 167px icon --><link rel="apple-touch-icon" sizes="167x167" href="//cdn-cms-s.f-static.net/ready_uploads/pwaScreenLogo/pwaImage.png?width=167&height=167&resizeType=pwaIcon&w=&orderScreen=&websiteID=4129155&tranW=&v=n6840_20309902"> <!-- Mobile Browser Address Bar Color --> <meta name="theme-color" content="#2acbd2"> <!-- Regular Meta Info --> <title class="s123-js-pjax">בוא נעזוב את ג'ון ברייס - למה ללמוד  HTML??</title> <meta name="description" content="בוא נעזוב את ג'ון ברייס - למה ללמוד  HTML??" class="s123-js-pjax"> <meta name="keywords" content="" class="s123-js-pjax"> <link rel="canonical" href="https://5f44c7cfb1f37.site123.me/" class="s123-js-pjax"/> <!-- Global site tag (gtag.js) - Google Analytics --> <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171296505-1"></script> <script>      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-/* Header/Blog Title */
-.header {
-  padding: 30px;
-  text-align: center;
-  background: white;
-}
+      gtag('config', 'UA-171296505-1');
+    </script> <link href="//fonts.googleapis.com/css?family=Alef:400italic,700italic,400,700&display=swap" rel="stylesheet" type="text/css"> <!-- Facebook Meta Info --> <meta property="og:url" content="https://5f44c7cfb1f37.site123.me/" class="s123-js-pjax"> <meta property="og:image" content="https://cdn-cms.f-static.net/ready_uploads/media/21173/800_5cdbdfd1c7b2b.jpg" class="s123-js-pjax"> <meta property="og:description" content="בוא נעזוב את ג'ון ברייס - למה ללמוד  HTML??" class="s123-js-pjax"> <meta property="og:title" content="בוא נעזוב את ג'ון ברייס - למה ללמוד  HTML??" class="s123-js-pjax"> <meta property="og:site_name" content="בוא נעזוב את ג'ון ברייס" class="s123-js-pjax"> <meta property="og:see_also" content="https://5f44c7cfb1f37.site123.me" class="s123-js-pjax"> <!-- Google+ Meta Info --> <meta itemprop="name" content="בוא נעזוב את ג'ון ברייס - למה ללמוד  HTML??" class="s123-js-pjax"> <meta itemprop="description" content="בוא נעזוב את ג'ון ברייס - למה ללמוד  HTML??" class="s123-js-pjax"> <meta itemprop="image" content="https://cdn-cms.f-static.net/ready_uploads/media/21173/800_5cdbdfd1c7b2b.jpg" class="s123-js-pjax"> <!-- Twitter Meta Info --> <meta name="twitter:card" content="summary" class="s123-js-pjax"> <meta name="twitter:url" content="https://5f44c7cfb1f37.site123.me/" class="s123-js-pjax"> <meta name="twitter:title" content="בוא נעזוב את ג'ון ברייס - למה ללמוד  HTML??" class="s123-js-pjax"> <meta name="twitter:description" content="בוא נעזוב את ג'ון ברייס - למה ללמוד  HTML??" class="s123-js-pjax"> <meta name="twitter:image" content="https://cdn-cms.f-static.net/ready_uploads/media/21173/800_5cdbdfd1c7b2b.jpg" class="s123-js-pjax">            
+                            <!-- Website CSS variables --> <style>    :root { --global_main_color: #2acbd2; --home_text_color: #ffffff; --home_third_background_color: #000000; --home_custom_image_size: px; --home_text_size_px: 70px; --home_text_size_2_px: 45px; --slogan_text_size_px: 22px; --home_text_size: 70; --home_text_size_2: 45; --slogan_text_size: 22; --home_text_size_px_media: 70px; --home_text_size_2_px_media: 45px; --slogan_text_size_px_media: 22px; --layout_text_align: center; --layout_text_align_rtl: center; --layout_text_box_width: 100%; --layout_left_side_width: 50%; --layout_left_side_width_vh: 50vh; --homepage_layout_height: 75%; --homepage_layout_height_vh: 75vh; --homepage_layout_height_menu_space: 0px; --mainNavMobileHeight: 0px; --homepage_layout_height_opacity_space_top: 0px; --homepage_layout_height_opacity_space_bottom: 0px; --mobileMenuFontSize: 20px; --mobileMenuPagesSpace: 5px; --homepageShapeDividerList_Size: 17%; --homepage_goal_space: 0px; --homepage_second_goal_space: 0px; --layout_bottom_spacing: 0px; --window-height: 100vh; --window-width: 100vw; --menu_font_size: 14px; --menu_pages_space: 1px; --menu_pages_side_padding: 15px; --menu_pages_letter_spacing: 0.5px; --menu_pages_word_spacing: 0px; --menu_thin_border: #ebebeb; --mobileMenuTextAlign: center;
+    } 
+    </style> <!-- Custom CSS --> <!-- Minimize CSS files --><link rel="stylesheet" href="//cdn-cms-s.f-static.net/versions/2/css/minimize_main.css?v=n6840" type="text/css" crossorigin="anonymous"><style>.s123-module-services.layout-1 {padding:50px 0;}.s123-module-services.layout-1 .service-item p {white-space:pre-wrap;word-wrap:break-word;}@media(min-width:768px) {.s123-module-services.layout-1 .col-centered {display:inline-block;float:none;text-align:center;vertical-align:text-top;}}.s123-module-services.layout-1 .service-item {margin-bottom:30px;}.s123-module-services.layout-1 .service-item .fa-stack {background-size:cover;background-position:center center;background-repeat:no-repeat;margin:5px;}.s123-page-data-services.layout-1 p {white-space:pre-wrap;word-wrap:break-word;}.s123-module-services.layout-2 {padding:50px 0;}.s123-module-services.layout-2 .service-item p {white-space:pre-wrap;word-wrap:break-word;}@media(min-width:768px) {.s123-module-services.layout-2 .col-centered {display:inline-block;float:none;text-align:center;vertical-align:text-top;}}.s123-module-services.layout-2 .service-item {margin-bottom:30px;}.s123-module-services.layout-2 .service-item .fa-stack {background-size:cover;background-position:center center;background-repeat:no-repeat;margin:5px;}.s123-page-data-services.layout-2 p {white-space:pre-wrap;word-wrap:break-word;}.s123-module-services.layout-3 .service {padding-top:30px;padding-bottom:30px;text-align:center;}.s123-module-services.layout-3 .service > * {clear:both;}.s123-module-services.layout-3 .service > h3 {margin-top:0;}.s123-module-services.layout-3 .service a {opacity:1;}.s123-module-services.layout-3 .service img {max-width:280px;max-height:280px;margin-bottom:15px;}.s123-module-services.layout-3 .service p {min-height:4.5em;}.s123-module-services.layout-3 .service .service-icon {text-align:center;min-width:150px;}.s123-module-services.layout-3 .service .service-icon i {font-size:150px;}@media ( min-width:768px ){.s123-module-services.layout-3 .service {padding:40px 60px;text-align:left;}.s123-module-services.layout-3 .service > * {clear:none;}html[dir=rtl] .s123-module-services.layout-3 .service {text-align:right;}.s123-module-services.layout-3 .service img,.s123-module-services.layout-3 .service .service-icon {max-width:300px;max-height:300px;margin-bottom:0;margin-right:50px;float:left;}.s123-module-services.layout-3 .service:nth-child(even) img,.s123-module-services.layout-3 .service:nth-child(even) .service-icon {margin-right:0;margin-left:50px;float:right;}html[dir=rtl] .s123-module-services.layout-3 .service img,html[dir=rtl] .s123-module-services.layout-3 .service .service-icon {margin-right:0;margin-left:50px;float:right;}html[dir=rtl] .s123-module-services.layout-3 .service:nth-child(even) img,html[dir=rtl] .s123-module-services.layout-3 .service:nth-child(even) .service-icon {margin-left:0;margin-right:50px;float:left;}} .s123-module-services.layout-4 {padding:50px 0;}.s123-module-services.layout-4 .service-item p {white-space:pre-wrap;word-wrap:break-word;}@media(min-width:768px) {.s123-module-services.layout-4 .col-centered {display:inline-block;float:none;text-align:center;vertical-align:text-top;}}.s123-module-services.layout-4 .col-centered > a {text-decoration:none;}.s123-module-services.layout-4 .service-item {padding:20px;margin-bottom:30px;}.s123-module-services.layout-4 .service-item .fa-stack {background-size:cover;background-position:center center;background-repeat:no-repeat;margin:5px;}.s123-page-data-services.layout-4 p {white-space:pre-wrap;word-wrap:break-word;}.s123-module-services.layout-6 {padding:50px 0;}.s123-module-services.layout-6 .service-item p {white-space:pre-wrap;word-wrap:break-word;opacity:0.7;width:90%;}@media(min-width:768px) {.s123-module-services.layout-6 .col-centered {display:inline-block;float:none;vertical-align:text-top;}}.s123-module-services.layout-6 .service-item {display:flex;flex-flow:row;margin-bottom:85px;}.s123-module-services.layout-6 .service-item .service-img-container {width:4.7em; display:flex;justify-content:center;}.s123-module-services.layout-6 .service-item .service-text-container {width:calc( 100% - 4.7em ); text-align:left;}html[dir="rtl"] .s123-module-services.layout-6 .service-item .service-text-container {text-align:right;}.s123-module-services.layout-6 .service-item h4 {margin-top:0;}.s123-module-services.layout-6 .service-item .fa-stack i {line-height:normal;}.s123-module-services.layout-6 .service-item .fa-stack[data-is-image="true"] {width:1.5em;height:1.5em;background-size:cover;background-position:center center;background-repeat:no-repeat;}.s123-module-services.layout-7 {padding:50px 0;}.s123-module-services.layout-7 .service-item p {white-space:pre-wrap;word-wrap:break-word;width:70%;margin:auto;margin-bottom:20px;opacity:0.8;}@media(min-width:768px) {.s123-module-services.layout-7 .col-centered {display:inline-block;float:none;text-align:center;vertical-align:text-top;}}.s123-module-services.layout-7 .service-item {margin-bottom:30px;}.s123-module-services.layout-7 .service-item .fa-stack {margin:5px;margin-bottom:27px;}.s123-module-services.layout-7 .service-item .fa-stack[data-is-icon="true"] {display:inline-flex;align-items:center;justify-content:center;}.s123-module-services.layout-7 .service-item .fa-stack[data-is-icon="true"] i {font-size:0.6em;}.s123-module-services.layout-7 .service-item .fa-stack[data-is-image="true"] {background-size:cover;background-position:center center;background-repeat:no-repeat;}.s123-page-data-services.layout-7 p {white-space:pre-wrap;word-wrap:break-word;}.s123-module-services.layout-7.layout-7 h4 {margin-top:0;margin-bottom:0.8em;}</style><link rel="stylesheet" href="//cdn-cms-s.f-static.net/files/css/bootstrap-rtl.min.css?v=n6840" type="text/css" crossorigin="anonymous"><link rel="stylesheet" href="//cdn-cms-s.f-static.net/versions/2/css/websiteCSS.css?w=&orderScreen=&websiteID=4129155&onlyContent=&tranW=&v=n6840_20309902" class="reloadable-css" type="text/css"> <!-- Froala Editor CSS --> <!-- Google AdSense --> 
+<meta name="NetsparkQuiltingResult" total-length="50063" removed="0" rules-found="w3135,w3187,w1413,w1418,w1419,w5121,w4900,w4901,w8721,w9636,w3116,w8536,w9347,w9675,w2263,w7593,w4958,w2341,w6760,w18262,w2719,w240,w3939,w3940,w3941,w16166,w12826,w16554,w16406,w28706,w28361,w4917,w4918,w12898,w18022,w13850,w14045,w28447,w5544,w28792,w4485,w6784,w12781,w28245,w28246,w9676,w8127,w8128" />
+</head><body id="page-top"> <div class="body"> <div id="websiteHeader"> <nav id="mainNav" class="hidden-xs navbar-default navbar-fixed-top  opacity-no"> <div class="site_container"> <div class="navbar-header"> <a href="#page-top" class="logo_name navbar-brand s123-w-l-s page-scroll"><span class="website-name">בוא נעזוב את ג'ון ברייס</span></a> </div> <div id="top-menu"> <ul class="navPages nav navbar-nav"> <li class="moduleMenu active"><a class="page-scroll homepageMenu" href="#page-top"><span class="txt-container">בית</span></a></li><li class="moduleMenu" data-menu-module-id="5d0a0f53588b1"><a class="page-scroll" href="#section-5d0a0f53588b1"><span class="txt-container">שירותים</span></a></li><li class="moduleMenu" data-menu-module-id="5b0a4ba50e4e8"><a class="page-scroll" href="#section-5b0a4ba50e4e8"><span class="txt-container">אודות</span></a></li><li class="moduleMenu" data-menu-module-id="5b0a4ba521825"><a class="page-scroll" href="#section-5b0a4ba521825"><span class="txt-container">צור קשר</span></a></li> </ul> <ul class="navActions nav navbar-nav"> <!-- Multi Currency --> <!-- Show Header Address --> <li class="header-address-wrapper"><a data-close-location="right" class="actionButton" role="button" data-container="body" data-toggle="address_menuCallActionIcons"><i class="fa fa-location-arrow"></i></a></li> <!-- Show Header Social --> <li class="header-social-wrapper hidden"><a data-close-location="right" class="actionButton" role="button" data-container="body" data-toggle="social_menuCallActionIcons"><i class="fa fa-share-alt"></i></a></li> <!-- Cart --> <li class="header-cart-wrapper orderOpenCart show-static"><a class="actionButton btn-primary-action-button-4" role="button"><i class="fa fa-shopping-cart"><span class="count"></span></i></a></li> <!-- Show Header Email With Style --> <li class="header-email-wrapper" data-style="1"><a data-close-location="right" class="actionButton" role="button" data-container="body" data-toggle="email_menuCallActionIcons"><i class="fa fa-envelope"></i></a></li> <!-- Only icon --> <li class="header-phone-wrapper" data-style="1"> <a data-close-location="right" class="actionButton" role="button" data-container="body" data-toggle="phone_menuCallActionIcons"> <i class="fa fa-phone"></i> </a> </li> <!-- Only Phone --> <!-- Menu Action Buttons --> </ul> </div> </div> </nav> <!-- Sticky Menu --> <input type="hidden" id="stickyMenu" name="stickyMenu" value="on"> </div> <nav id="mainNavMobile" class="navbar-fixed-top"> <div class="navPagesLeft"> <div class="header-menu-wrapper"><a data-close-location="left" data-menu-color="" data-menu-type="0" data-menu-align="center" data-is-mobile="true" class="mobile-menu-btn actionButton" role="button" data-container="body" data-toggle="menuCallActionIcons"><i class="fa fa-bars"></i></a></div> </div> <div class="navbar-header"> <a href="#page-top" class="logo_name navbar-brand s123-w-l-s page-scroll"><span class="website-name">בוא נעזוב את ג'ון ברייס</span></a> </div> <div class="navPagesRight"> <ul class="navActions nav navbar-nav"> <!-- Show header phone --> <li class="header-phone-wrapper"> <a data-close-location="right" class="actionButton" role="button" data-container="body" data-toggle="phone_menuCallActionIcons"> <i class="fa fa-phone"></i> </a> </li> <!-- Show header email --> <li class="header-email-wrapper"><a data-close-location="right" class="actionButton" role="button" data-container="body" data-toggle="email_menuCallActionIcons"><i class="fa fa-envelope"></i></a></li> <!-- Show header address --> <li class="header-address-wrapper"><a data-close-location="right" class="actionButton" role="button" data-container="body" data-toggle="address_menuCallActionIcons"><i class="fa fa-location-arrow"></i></a></li> <!-- Show header social --> <li class="header-social-wrapper hidden"><a data-close-location="right" class="actionButton" role="button" data-container="body" data-toggle="social_menuCallActionIcons"><i class="fa fa-share-alt"></i></a></li> <!-- Cart --> <li class="header-cart-wrapper orderOpenCart show-static"><a class="actionButton btn-primary-action-button-4" role="button"><i class="fa fa-shopping-cart"><span class="count"></span></i></a></li> </ul> </div> </nav> <div id="top-menu-mobile" style="display:none;"> <ul> <li class="moduleMenu active"><a class="page-scroll homepageMenu" href="#page-top"><span class="txt-container">בית</span></a></li><li class="moduleMenu" data-menu-module-id="5d0a0f53588b1"><a class="page-scroll" href="#section-5d0a0f53588b1"><span class="txt-container">שירותים</span></a></li><li class="moduleMenu" data-menu-module-id="5b0a4ba50e4e8"><a class="page-scroll" href="#section-5b0a4ba50e4e8"><span class="txt-container">אודות</span></a></li><li class="moduleMenu" data-menu-module-id="5b0a4ba521825"><a class="page-scroll" href="#section-5b0a4ba521825"><span class="txt-container">צור קשר</span></a></li> </ul> </div> <div id="s123PjaxMainContainer"> <section id="top-section" class="homepage_style_1 top_magic_homepage_kind_1  parallax-on old_homepage_layout_log old_homepage_layout_structure_log"><div class="home_background_wrapper parallax-on"><div class="parallax-window home-image-bg" data-parallax="scroll" data-bleed="0" data-idele="parallax_home_opacity" data-opacity="0.5" data-filter="" data-backgroundcolor="#000000" data-image-src="https://cdn-cms.f-static.net/ready_uploads/media/21173/2000_5cdbdfd1c7b2b.jpg" data-position="center center" data-background-position="center center" style="background-position:center center"></div></div><div class="magic_homepage magic_homepage_kind_simple magic_homepage_kind_1 homepage-layout-24 container parent_simple_object_position_center_center"><div class="home_main_wrapper main_ele_place_top simple_object_position_center_center"><div class="box_container boxStyle_"><div class="boxBorder  ele_align_center"><h1 id="home_siteSlogan" class=" weight700  shadow1  0 16" >למה ללמוד  HTML??</h1><h2 id="home_siteSlogan_2" class=" weight400  shadow1  0 30" style="display:none"></h2><p id="home_SecondSiteSlogan" class=" weight700  shadow1 background3 1 20" >אפשר לבנות כאן אתר בדקה וחצי!!!!!!!!!!!</p></div></div></div></div></section><div id="s123ModulesContainer" class="s123-modules-container"><section id="section-5d0a0f53588b1" class="s123-module s123-module-services layout-4 bg-primary"> <div data-aos="fade-up" class="container-fluid page_header_style page_header_style_"><div class="row"><div class="container"><div class="row modulesTitle"><div class="col-xs-12 text-center"> <H2 id="section-5d0a0f53588b1-title"  class="s123-page-header">שירותים</H2> <hr class="small"> <h4 id="section-5d0a0f53588b1-slogan" class="s123-page-slogan"></h4> </div> </div> </div> </div> </div> <div class="container" data-aos="fade-up"> <div class="row text-center"><div class="col-md-4 col-sm-6 col-centered"><a href="/services/%D7%A0%D7%9E%D7%A0%D7%99" ><div class="service-item box-primary s123-box-top-primary-border s123-box-flying-up"><span class="fa-stack fa-4x img-circle bgLazyload" data-bg="//cdn-cms.f-static.net/uploads/2031/400_5a15ab3119d59.jpg"></span><h4><strong>נמני</strong></h4><p>אריאל נמני יכול לספק לך כתובות ושיטות קונפיגורציה שונות</p></div></a></div><div class="col-md-4 col-sm-6 col-centered"><a href="/services/%D7%9E%D7%A8%D7%92%D7%95%D7%9C%D7%99%D7%A1" ><div class="service-item box-primary s123-box-top-primary-border s123-box-flying-up"><span class="fa-stack fa-4x img-circle bgLazyload" data-bg="//cdn-cms.f-static.net/uploads/2031/400_5a281d5cab608.jpg"></span><h4><strong>מרגוליס</strong></h4><p>נתקעת? 
+יהודה מרגוליס יכול לעזור!</p></div></a></div><div class="col-md-4 col-sm-6 col-centered"><a href="/services/%D7%94%D7%9C%D7%99%D7%A7%D7%95%D7%A4%D7%98%D7%A8" ><div class="service-item box-primary s123-box-top-primary-border s123-box-flying-up"><span class="fa-stack fa-4x img-circle bgLazyload" data-bg="//cdn-cms.f-static.net/uploads/2031/400_5a15abaa0b515.jpg"></span><h4><strong>הליקופטר</strong></h4><p>שירות התקנת מדמי אנדרואיד ומשחקי רשת אלימים</p></div></a></div></div> </div></section><section id="section-5b0a4ba50e4e8" class="s123-module s123-module-about layout-4 layout-4"> <div data-aos="fade-up" class="container-fluid page_header_style page_header_style_"><div class="row"><div class="container"><div class="row modulesTitle"><div class="col-xs-12 text-center"> <H2 id="section-5b0a4ba50e4e8-title"  class="s123-page-header">אודות</H2> <hr class="small"> <h4 id="section-5b0a4ba50e4e8-slogan" class="s123-page-slogan"></h4> </div> </div> </div> </div> </div> <div class="container" data-aos="fade-up"> <div class="row"> <div class='col-xs-12'> <div class="responsive-handler fr-view breakable"><div class="images"> <div class="separateImages text-center"> <img src="https://cdn-cms.f-static.net/uploads/4129155/800_5d0a171177656.jpg" class="img-rounded img-responsive" style="max-height:400px;max-width:80%;display:inline-block;" alt="אודות" /> </div> </div>הדף 'אודות' הינו עמוד מרכזי באתר שלך. זה המקום שבו תוכל לספר ללקוחותיך על מהות האתר והעסק שלך. ניתן לערוך את הטקסט הזה ולהחליף אותו עם התוכן שלך. לדוגמה, ניתן להוסיף פרטים על הפעילות של החברה, כמה זמן היא קיימת, מה מייחד אותה, ועוד. ערוך את דף ה"אודות" שלך דרך "עמודים".הדף 'אודות' הינו עמוד מרכזי באתר שלך.<br><br>זה המקום שבו תוכל לספר ללקוחותיך על מהות האתר והעסק שלך.</div> </div> </div> </div></section><section id="section-5b0a4ba521825" class="s123-module s123-module-contact layout-1 bg-primary"> <div data-aos="fade-up" class="container-fluid page_header_style page_header_style_"><div class="row"><div class="container"><div class="row modulesTitle"><div class="col-xs-12 text-center"> <H2 id="section-5b0a4ba521825-title"  class="s123-page-header">צור קשר</H2> <hr class="small"> <h4 id="section-5b0a4ba521825-slogan" class="s123-page-slogan"></h4> </div> </div> </div> </div> </div> <div class="container" data-aos="fade-up"> <div class="row text-center"> <div class="col-md-5" style="text-align: center;"> <ul class="list-unstyled contact-as-details-container"> <li>יד בנימין, מחוז מרכז, ישראל</li> </ul> <ul class="list-unstyled contact-as-details-container"> <li><a href="tel:999-7777-000" ><i class="fa fa-phone"></i><span dir="ltr">999-7777-000</span></a></li> <li><a href="mailto:mistomeh@gmail.com"><i class="fa fa-envelope-o fa-fw"></i>mistomeh@gmail.com</a></li> </ul> </div> <form class="breakable contactUsForm " data-date-format="d/m/Y"> <div class="col-md-6 col-md-offset-1"> <div class="row"> <div class="col-md-6"> <div class="form-group"> <input type="text" name="contact_name" placeholder="שם" class="form-control" required data-msg-required="שדה חובה."> </div> </div> <div class="col-md-6"> <div class="form-group"> <input type="text" name="contact_phone" placeholder="טלפון" class="form-control"> </div> </div> </div> <div class="form-group"> <input type="text" name="contact_email" placeholder="כתובת הדואר האלקטרוני שלך" class="form-control s123-force-ltr" required data-msg-required="שדה חובה." data-rule-email="true" data-msg-email="אנא הזן כתובת דואר אלקטרוני תקינה."> </div> <div class="form-group"> <textarea class="form-control" name="contact_message" placeholder="הודעה" style="min-height: 100px;"></textarea> </div> <button type="submit" class="btn btn-primary btn-block">צור קשר</button> </div> <input type="hidden" name="w" value=""> <input type="hidden" name="websiteID" value="4129155"> <input type="hidden" name="moduleID" value="5b0a4ba521825"> <input type="hidden" name="layout" value="1"> </form> </div> </div> <div class="s123-module-contact-map"> <div id="contact_5f44c9a1a0fbe" class="map-container" data-src="https://maps.site123.com/include/globalMapDisplay.php?q=%D7%99%D7%93+%D7%91%D7%A0%D7%99%D7%9E%D7%99%D7%9F%2C+%D7%9E%D7%97%D7%95%D7%96+%D7%9E%D7%A8%D7%9B%D7%96%2C+%D7%99%D7%A9%D7%A8%D7%90%D7%9C&z=15&l=he&ilfc="></div> </div> </section></div><footer class="global_footer footer_1"> <div class="container"> <div class="row"> <div class="side1 col-xs-12 col-sm-6 col-md-6"> <div> <span class="footer_name website-name-preview-helper">בוא נעזוב את ג'ון ברייס</span> </div> <div>                                זכויות יוצרים © 2020 כל הזכויות שמורות
+                            </div><div class="clearfix upgrade-website-preview-helper">מופעל על-ידי <a rel="nofollow" target="_blank" href="https://he.site123.com">SITE123</a> - <a rel="nofollow" target="_blank" href="https://he.site123.com">בניית אתרים בחינם</a></div></div> <div class="side2 col-xs-12 col-sm-6 col-md-6"> <ul class="navPages nav navbar-nav hidden-xs"> <li class="moduleMenu active"><a class="page-scroll homepageMenu" href="#page-top"><span class="txt-container">בית</span></a></li><li class="moduleMenu" data-menu-module-id="5d0a0f53588b1"><a class="page-scroll" href="#section-5d0a0f53588b1"><span class="txt-container">שירותים</span></a></li><li class="moduleMenu" data-menu-module-id="5b0a4ba50e4e8"><a class="page-scroll" href="#section-5b0a4ba50e4e8"><span class="txt-container">אודות</span></a></li><li class="moduleMenu" data-menu-module-id="5b0a4ba521825"><a class="page-scroll" href="#section-5b0a4ba521825"><span class="txt-container">צור קשר</span></a></li> </ul></div> </div> </div> </footer> </div> </div> <div> <div id="header-phone-content" style="display:none;"> <div class="popover_phone_icons"> <div class="global-contact-details-container text-center"> <ul class="list-unstyled"> <li><a href="tel:999-7777-000" ><i class="fa fa-phone"></i><span dir="ltr">999-7777-000</span></a></li> </ul> </div> </div> <input type="hidden" id="multiPhonesSettings" value="[{&quot;number&quot;:&quot;999-7777-000&quot;,&quot;note&quot;:&quot;&quot;,&quot;type&quot;:&quot;1&quot;}]"> </div> <div id="header-email-content" style="display:none;"><div class="popover_email_icons"> <div class="global-contact-details-container text-center"> <ul class="list-unstyled"> <li><a href="mailto:mistomeh@gmail.com"><i class="fa fa-envelope fa-fw"></i>&nbsp;<span dir="ltr">mistomeh@gmail.com</span></a></li> </ul> </div> </div></div> <input type="hidden" id="globalContactEmailSettings" value="{&quot;contact_email&quot;:&quot;mistomeh@gmail.com&quot;,&quot;custom_form_html&quot;:&quot;&quot;}"> <div id="header-address" style="display:none;"><div class="popover_address_icons"> <div class="global-contact-details-container text-center"> <ul class="list-unstyled"> <li><a href="http://maps.google.com?q=%D7%99%D7%93+%D7%91%D7%A0%D7%99%D7%9E%D7%99%D7%9F%2C+%D7%9E%D7%97%D7%95%D7%96+%D7%9E%D7%A8%D7%9B%D7%96%2C+%D7%99%D7%A9%D7%A8%D7%90%D7%9C" target="_blank"><i class="fa fa-location-arrow"></i> יד בנימין, מחוז מרכז, ישראל</a></li> </ul> </div> </div><div class="popover_icons"><div class="social-icons"><ul class="list-inline"><li><a href="https://maps.google.com?q=%D7%99%D7%93+%D7%91%D7%A0%D7%99%D7%9E%D7%99%D7%9F%2C+%D7%9E%D7%97%D7%95%D7%96+%D7%9E%D7%A8%D7%9B%D7%96%2C+%D7%99%D7%A9%D7%A8%D7%90%D7%9C" target="_blank"><img src="//cdn-cms-s.f-static.net/files/images/google_map_white_small.png?v=n6840" style="width: 40px;height: auto;padding-bottom: 7px;"></a></li><li><a href="https://waze.com/ul?ll=31.796685,34.82037&navigate=yes" target="_blank"><img src="//cdn-cms-s.f-static.net/files/images/waze_white_small.png?v=n6840" style="width: 40px;height: auto;padding-bottom: 7px;"></a></li><li class="visible-xs-inline-block"><a href="moovit://directions?dest_lat=31.796685&dest_lon=34.82037" target="_blank"><img src="//cdn-cms-s.f-static.net/files/images/moovit_white_small.png?v=n6840" style="width: 40px;height: auto;padding-bottom: 7px;"></a></li><li class="visible-sm-inline-block visible-md-inline-block visible-lg-inline-block"><a href="https://moovit.com/?to=%D7%99%D7%93+%D7%91%D7%A0%D7%99%D7%9E%D7%99%D7%9F%2C+%D7%9E%D7%97%D7%95%D7%96+%D7%9E%D7%A8%D7%9B%D7%96%2C+%D7%99%D7%A9%D7%A8%D7%90%D7%9C&tll=31.796685_34.82037&metroId=1" target="_blank"><img src="//cdn-cms-s.f-static.net/files/images/moovit_white_small.png?v=n6840" style="width: 40px;height: auto;padding-bottom: 7px;"></a></li></ul></div></div></div> <div id="header-social-content" style="display:none;"><div class="popover_icons"></div></div> <input type="hidden" id="facebook_url" name="facebook_url" value=""> <input type="hidden" id="twitter_url" name="twitter_url" value=""> </div> <div id="showSmallAdOnScroll" class="upgrade-website-preview-helper style2"><a rel="nofollow" target="_blank" href="https://he.site123.com/?utm_source=user-website&utm_medium=powered-by-ad-he&utm_content=all&utm_campaign=all"><span class="s123-b-b-s-1">אתר זה נבנה באמצעות </span><img src="//cdn-cms-s.f-static.net/manager/site123_website/files/logos/brand_files_2020/Logo/Horizontal/PNG/Horizontal_Black.png?v=n6840" style="height:21px;width:auto;vertical-align:middle;">&nbsp;&nbsp;&nbsp;<span class="site123link hidden-xs">בנה אתר אינטרנט עכשיו >></span></a></div> <a id="gotoTop" class="gotoTop page-scroll" style="display: none;" href="#page-top"><i class="fa fa-angle-up"></i></a> <input type="hidden" id="layoutNUM" name="layoutNUM" value="1"> <input type="hidden" id="footer_layout" name="footer_layout" value="1"> <input type="hidden" id="layoutMenuPositionTXT" name="layoutMenuPositionTXT" value="top"> <input type="hidden" id="versionNUM" name="versionNUM" value="2"> <input type="hidden" id="w" name="w" value=""> <input type="hidden" id="websiteID" value="4129155"> <input type="hidden" id="enable_as_theme" value="0"> <input type="hidden" id="onepage" value="1"> <input type="hidden" id="pjaxSupported" value="1"> <input type="hidden" id="moduleTypeNUM" class="s123-js-pjax" name="moduleTypeNUM" value=""> <input type="hidden" id="hasEcommerce" value="0"> <input type="hidden" id="pageUniqueID" class="s123-js-pjax" name="pageUniqueID" value=""> <script>        var menuScrollOffset = 60;
+        var packageNUM = 1;
+        var domain = '5f44c7cfb1f37.site123.me';
+        var languageCode = 'he';
+        var multiLanCode = '';
+        var globalLanguageChildLan          = '';
+        var websiteLanguageCode             = '';
+        var websiteLanguageCountryCode      = '';
+        var websiteLanguageCountryFullCode  = '';
+        var IsManagment                     = '1';
+        var isMinimize                      = true;
 
-.header h1 {
-  font-size: 50px;
-}
-
-/* Style the top navigation bar */
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-}
-
-/* Style the topnav links */
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change color on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Create two unequal columns that floats next to each other */
-/* Left column */
-.leftcolumn {   
-  float: left;
-  width: 75%;
-}
-
-/* Right column */
-.rightcolumn {
-  float: left;
-  width: 25%;
-  background-color: #f1f1f1;
-  padding-left: 20px;
-}
-
-/* Fake image */
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
-}
-
-/* Add a card effect for articles */
-.card {
-  background-color: white;
-  padding: 20px;
-  margin-top: 20px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Footer */
-.footer {
-  padding: 20px;
-  text-align: center;
-  background: #ddd;
-  margin-top: 20px;
-}
-
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn {   
-    width: 100%;
-    padding: 0;
-  }
-}
-
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
-  .topnav a {
-    float: none;
-    width: 100%;
-  }
-}
-</style>
-</head>
-
-<body>
-
-<div class="header">
-  <h1>My Website</h1>
-  <p>Resize the browser window to see the effect.</p>
-</div>
-
-<div class="topnav">
-  <a href="#">Link</a>
-  <a href="#">Link</a>
-  <a href="#">Link</a>
-  <a href="#" style="float:right">Link</a>
-</div>
-
-<div class="row">
-  <div class="leftcolumn">
-    <div class="card">
-      <h2>TITLE HEADING</h2>
-      <h5>Title description, Dec 7, 2017</h5>
-      <div class="fakeimg" style="height:200px;">Image</div>
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-    </div>
-    <div class="card">
-      <h2>TITLE HEADING</h2>
-      <h5>Title description, Sep 2, 2017</h5>
-      <div class="fakeimg" style="height:200px;">Image</div>
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-    </div>
-  </div>
-  <div class="rightcolumn">
-    <div class="card">
-      <h2>About Me</h2>
-      <div class="fakeimg" style="height:100px;">Image</div>
-      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-    </div>
-    <div class="card">
-      <h3>Popular Post</h3>
-      <div class="fakeimg"><p><img src="https://picsum.photos/id/1/200/300"></p></div>
-      <div class="fakeimg"><p>Image</p></div>
-      <div class="fakeimg"><p>Image</p></div>
-    </div>
-    <div class="card">
-      <h3>Follow Me</h3>
-      <p>Some text..</p>
-    </div>
-  </div>
-</div>
-
-<div class="footer">
-  <h2>Footer</h2>
-</div>
-
-</body>
-</html>
+        var $GLOBALS = {
+            'cdn-user-files' : '//cdn-cms.f-static.net',
+            'maps-display-domain' : 'https://maps.site123.com',
+            'cdn-system-files' : '//cdn-cms-s.f-static.net',
+            'v-cache' : 'n6840',
+        };
+        var longFreeCustomer = false;
+                // set progressive web applications settings object for published websites only
+        var pwaSettings = {
+            enableMessage: false,
+        };
+              
+    </script> <!-- JavaScript Translations Object --><script>var translations = {
+		"sent"	  		   : "\u05e0\u05e9\u05dc\u05d7!",
+		"enterYourQuery" 	   : "\u05d4\u05d6\u05df \u05d0\u05ea \u05d4\u05e9\u05d0\u05d9\u05dc\u05ea\u05d4 \u05e9\u05dc\u05da",
+		"loading"		   : "\u05d8\u05d5\u05e2\u05df...",
+		"closeEsc"		   : "\u05e1\u05d2\u05d5\u05e8 (Esc)",
+		"previousLeftArrowKey"	   : "\u05d4\u05e7\u05d5\u05d3\u05dd (\u05d7\u05e5 \u05e9\u05de\u05d0\u05dc\u05d4)",
+		"NextRightArrowKey"	   : "\u05d4\u05d1\u05d0 (\u05de\u05e7\u05e9 \u05d7\u05e5 \u05d9\u05de\u05d9\u05e0\u05d4)",
+		"of"		   	   : "\u05de\u05ea\u05d5\u05da",
+		"more"		   	   : "\u05e2\u05d5\u05d3",
+		"cart"		   	   :"\u05e1\u05dc \u05e7\u05e0\u05d9\u05d5\u05ea",
+		"SearchResult"		   : "\u05ea\u05d5\u05e6\u05d0\u05d5\u05ea \u05d7\u05d9\u05e4\u05d5\u05e9",
+		"ChooseTheAmountDonate"    : "\u05d1\u05d7\u05e8 \u05e1\u05db\u05d5\u05dd \u05dc\u05ea\u05e8\u05d5\u05de\u05d4",
+		"blogReviewMessage"	   : "\u05ea\u05d5\u05d3\u05d4! \u05d4\u05ea\u05d2\u05d5\u05d1\u05d4 \u05e9\u05dc\u05da \u05ea\u05e4\u05d5\u05e8\u05e1\u05dd \u05dc\u05d0\u05d7\u05e8 \u05e9\u05ea\u05d0\u05d5\u05e9\u05e8 \u05e2\u05dc \u05d9\u05d3\u05d9 \u05de\u05e0\u05d4\u05dc \u05d4\u05de\u05e2\u05e8\u05db\u05ea.",
+		"productReviewMessage"	   : "\u05ea\u05d5\u05d3\u05d4! \u05d4\u05d1\u05d9\u05e7\u05d5\u05e8\u05ea \u05e9\u05dc\u05da \u05ea\u05e4\u05d5\u05e8\u05e1\u05dd \u05dc\u05d0\u05d7\u05e8 \u05e9\u05ea\u05d0\u05d5\u05e9\u05e8 \u05e2\u05dc \u05d9\u05d3\u05d9 \u05de\u05e0\u05d4\u05dc \u05d4\u05de\u05e2\u05e8\u05db\u05ea.",
+		"ConfirmMailingSubscrive"  : "\u05d0\u05e0\u05d0 \u05d0\u05e9\u05e8 \u05d0\u05ea \u05db\u05ea\u05d5\u05d1\u05ea \u05d4\u05d3\u05d5\u05d0''\u05dc \u05e9\u05dc\u05da \u05db\u05d3\u05d9 \u05dc\u05d4\u05e9\u05dc\u05d9\u05dd \u05d0\u05ea \u05d4\u05e8\u05e9\u05de\u05ea\u05da.",
+		"subscribeTellAboutYou"  : "\u05e1\u05e4\u05e8 \u05dc\u05e0\u05d5 \u05e2\u05dc \u05e2\u05e6\u05de\u05da \u05d1\u05d1\u05e7\u05e9\u05d4",
+		"imageCouldNotLoaded"      : "\u05d0\u05d9\u05df \u05d0\u05e4\u05e9\u05e8\u05d5\u05ea \u05dc\u05d8\u05e2\u05d5\u05df <a href=\"%url%\"> \u05d0\u05ea \u05d4\u05ea\u05de\u05d5\u05e0\u05d4 <\/a>.",
+		"searchInputValidation"    : "\u05d4\u05d6\u05df \u05e9\u05d0\u05d9\u05dc\u05ea\u05ea \u05d7\u05d9\u05e4\u05d5\u05e9 \u05d7\u05d5\u05e7\u05d9\u05ea.",
+		"jqueryValidMsgRequire"    : "\u05e9\u05d3\u05d4 \u05d7\u05d5\u05d1\u05d4.",
+		"jqueryValidMsgRemote"     : "\u05d0\u05e0\u05d0 \u05ea\u05e7\u05df \u05e9\u05d3\u05d4 \u05d6\u05d4.",
+		"jqueryValidMsgEmail"      : "\u05d0\u05e0\u05d0 \u05d4\u05d6\u05df \u05db\u05ea\u05d5\u05d1\u05ea \u05d3\u05d5\u05d0\u05e8 \u05d0\u05dc\u05e7\u05d8\u05e8\u05d5\u05e0\u05d9 \u05ea\u05e7\u05d9\u05e0\u05d4.",
+		"jqueryValidMsgUrl"        : "\u05d0\u05e0\u05d0 \u05d4\u05d6\u05df \u05db\u05ea\u05d5\u05d1\u05ea URL \u05d7\u05d5\u05e7\u05d9\u05ea.",
+		"jqueryValidMsgDate"       : "\u05d4\u05d6\u05df \u05d1\u05d1\u05e7\u05e9\u05d4 \u05ea\u05d0\u05e8\u05d9\u05da \u05d7\u05d5\u05e7\u05d9.",
+		"jqueryValidMsgDateISO"    : "\u05d4\u05d6\u05df \u05d1\u05d1\u05e7\u05e9\u05d4 \u05ea\u05d0\u05e8\u05d9\u05da \u05d7\u05d5\u05e7\u05d9 (ISO).",
+		"jqueryValidMsgNumber"     : "\u05e0\u05d0 \u05d4\u05d6\u05df \u05de\u05e1\u05e4\u05e8 \u05ea\u05e7\u05e3.",
+		"jqueryValidMsgDigits"     : "\u05d0\u05e0\u05d0 \u05d4\u05d6\u05df \u05e1\u05e4\u05e8\u05d5\u05ea \u05d1\u05dc\u05d1\u05d3.",
+		"jqueryValidMsgCreditcard" : "\u05e0\u05d0 \u05d4\u05d6\u05df \u05de\u05e1\u05e4\u05e8 \u05db\u05e8\u05d8\u05d9\u05e1 \u05d0\u05e9\u05e8\u05d0\u05d9 \u05ea\u05e7\u05e3.",
+		"jqueryValidMsgEqualTo"    : "\u05d4\u05d6\u05df \u05d0\u05ea \u05d0\u05d5\u05ea\u05d5 \u05d4\u05e2\u05e8\u05da \u05e9\u05d5\u05d1.",
+		"jqueryValidMsgAccept"     : "\u05e0\u05d0 \u05d4\u05d6\u05df \u05e2\u05e8\u05da \u05e2\u05dd \u05e1\u05d9\u05d5\u05de\u05ea \u05d7\u05d5\u05e7\u05d9\u05ea.",
+		"jqueryValidMsgMaxlength"  : "\u05d0\u05e0\u05d0 \u05d4\u05d6\u05df \u05dc\u05d0 \u05d9\u05d5\u05ea\u05e8 \u05de {0} \u05ea\u05d5\u05d5\u05d9\u05dd.",
+		"jqueryValidMsgMinlength"  : "\u05d4\u05d6\u05df \u05dc\u05e4\u05d7\u05d5\u05ea {0} \u05ea\u05d5\u05d5\u05d9\u05dd.",
+		"jqueryValidMsgRangelength":"\u05d4\u05d6\u05df \u05e2\u05e8\u05da \u05d1\u05d9\u05df {0} \u05dc\u05d1\u05d9\u05df {1} \u05ea\u05d5\u05d5\u05d9\u05dd.",
+		"jqueryValidMsgRange"	   : "\u05d4\u05d6\u05df \u05e2\u05e8\u05da \u05d1\u05d9\u05df {0} \u05dc {1}.",
+		"jqueryValidMsgMax"	   : "\u05d4\u05d6\u05df \u05e2\u05e8\u05da \u05e7\u05d8\u05df \u05d0\u05d5 \u05e9\u05d5\u05d5\u05d4 \u05dc {0}.",
+		"jqueryValidMsgMin"	   : "\u05d4\u05d6\u05df \u05e2\u05e8\u05da \u05d2\u05d3\u05d5\u05dc \u05d0\u05d5 \u05e9\u05d5\u05d5\u05d4 \u05dc- {0}.",
+		"sending"		   : "\u05e9\u05d5\u05dc\u05d7",
+		"firstName"		   : "\u05e9\u05dd \u05e4\u05e8\u05d8\u05d9",
+		"lastName"		   : "\u05e9\u05dd \u05de\u05e9\u05e4\u05d7\u05d4",
+		"phone"			   : "\u05d8\u05dc\u05e4\u05d5\u05df",
+		"emailAddress"		   : "\u05db\u05ea\u05d5\u05d1\u05ea \u05d4\u05d3\u05d5\u05d0\u05e8 \u05d4\u05d0\u05dc\u05e7\u05d8\u05e8\u05d5\u05e0\u05d9 \u05e9\u05dc\u05da",
+		"fileUpload"		   : "\u05d4\u05e2\u05dc\u05d0\u05ea \u05e7\u05d5\u05d1\u05e5",
+		"send"			   : "\u05e9\u05dc\u05d7",
+		"search"		   : "\u05d7\u05d9\u05e4\u05d5\u05e9",
+		"productvalidatorPopover"  : "\u05e9\u05d3\u05d4 \u05d7\u05d5\u05d1\u05d4",
+		"SpecialRequest" 	   : "\u05d1\u05e7\u05e9\u05d4 \u05de\u05d9\u05d5\u05d7\u05d3\u05ea",
+		"restaurantReservation"    : "\u05d4\u05d6\u05de\u05e0\u05d5\u05ea \u05dc\u05de\u05e1\u05e2\u05d3\u05d4",
+		"ThankYouAuto"		   : "\u05d4\u05d4\u05d6\u05de\u05e0\u05d4 \u05d4\u05d5\u05e9\u05dc\u05de\u05d4, \u05ea\u05d5\u05d3\u05d4 \u05dc\u05da \u05e2\u05dc \u05d4\u05d4\u05d6\u05de\u05e0\u05d4!",
+		"ThankYouManual"	   : "\u05d4\u05d4\u05d6\u05de\u05e0\u05d4 \u05e2\u05d3\u05d9\u05d9\u05df \u05dc\u05d0 \u05d4\u05d5\u05e9\u05dc\u05de\u05d4, \u05d0\u05e0\u05d5 \u05e0\u05d9\u05e6\u05d5\u05e8 \u05d0\u05d9\u05ea\u05da \u05e7\u05e9\u05e8 \u05d1\u05e7\u05e8\u05d5\u05d1",
+		"Ok"			   : "\u05d0\u05e9\u05e8",
+		"OrderNumber"		   : "\u05de\u05e1\u05e4\u05e8 \u05d4\u05d6\u05de\u05e0\u05d4",
+		"Date"			   : "\u05ea\u05d0\u05e8\u05d9\u05da",
+		"Hour"			   : "\u05e9\u05e2\u05d4",
+		"TableSize"		   : "\u05d2\u05d5\u05d3\u05dc \u05e9\u05d5\u05dc\u05d7\u05df",
+		"NoAvailableTime"	   : "\u05de\u05e6\u05d8\u05e2\u05e8\u05d9\u05dd, \u05d0\u05d9\u05df \u05d6\u05de\u05df \u05e4\u05e0\u05d5\u05d9 \u05e2\u05d1\u05d5\u05e8 \u05ea\u05d0\u05e8\u05d9\u05da \u05d6\u05d4, \u05d0\u05e0\u05d0 \u05d1\u05d7\u05e8 \u05ea\u05d0\u05e8\u05d9\u05da \u05d0\u05d7\u05e8.",
+		"message"	           : "\u05d4\u05d5\u05d3\u05e2\u05d4",
+		"ThankYou"	           : "\u05ea\u05d5\u05d3\u05d4 \u05dc\u05da",
+		"error_title"	   	   : "\u05e9\u05d2\u05d9\u05d0\u05d4",
+		"error_body"	   	   : "\u05d0\u05d5\u05e4\u05e1! \u05de\u05e9\u05d4\u05d5 \u05d4\u05e9\u05ea\u05d1\u05e9",
+		"limitTickets"	   : "\u05de\u05d2\u05d1\u05dc\u05ea \u05db\u05e8\u05d8\u05d9\u05e1\u05d9\u05dd:",
+		"tickets"	   : "\u05db\u05e8\u05d8\u05d9\u05e1\u05d9\u05dd",
+		"registrationClosed"       : "\u05d4\u05d4\u05e8\u05e9\u05de\u05d4 \u05e1\u05d2\u05d5\u05e8\u05d4. \u05e6\u05d5\u05e8 \u05e7\u05e9\u05e8 \u05dc\u05e7\u05d1\u05dc\u05ea \u05de\u05d9\u05d3\u05e2 \u05e0\u05d5\u05e1\u05e3.",
+		"Sunday"		   : "\u05e8\u05d0\u05e9\u05d5\u05df",
+		"Monday"		   : "\u05e9\u05e0\u05d9",
+		"Tuesday"		   : "\u05e9\u05dc\u05d9\u05e9\u05d9",
+		"Wednesday"		   : "\u05e8\u05d1\u05d9\u05e2\u05d9",
+		"Thursday"		   : "\u05d7\u05de\u05d9\u05e9\u05d9",
+		"Friday"		   : "\u05e9\u05d9\u05e9\u05d9",
+		"Saturday"		   : "\u05e9\u05d1\u05ea",
+		"foodDeliverybootBoxTitle" : "\u05d7\u05dc\u05d5\u05df \u05d4\u05d6\u05de\u05e0\u05d4",
+		"addToCart"                : "\u05d4\u05d5\u05e1\u05e3 \u05dc\u05e1\u05dc \u05d4\u05e7\u05e0\u05d9\u05d5\u05ea",
+		"save"                	   : "\u05e9\u05de\u05d5\u05e8",       
+		"ThankYouAfterSubmmit" 	   : "\u05ea\u05d5\u05d3\u05d4 \u05e9\u05e4\u05e0\u05d9\u05ea \u05d0\u05dc\u05d9\u05e0\u05d5. \u05e7\u05d9\u05d1\u05dc\u05e0\u05d5 \u05d0\u05ea \u05d4\u05d5\u05d3\u05e2\u05ea\u05da \u05d5\u05e0\u05e9\u05d9\u05d1 \u05e2\u05dc\u05d9\u05d4 \u05d1\u05e7\u05e8\u05d5\u05d1.",    
+		"country" 					: "\u05d0\u05e8\u05e5",
+		"productQuntityLimit" 		: "\u05d4\u05de\u05d5\u05e6\u05e8 \u05de\u05d5\u05d2\u05d1\u05dc \u05dc\u05de\u05e7\u05e1\u05d9\u05de\u05d5\u05dd \u05e9\u05dc {{units_limitation}} \u05d9\u05d7\u05d9\u05d3\u05d5\u05ea.",
+		"productQuntityLimitMin" 		: "\u05d4\u05de\u05d5\u05e6\u05e8 \u05de\u05d5\u05d2\u05d1\u05dc \u05dc\u05de\u05e1\u05e4\u05e8 \u05de\u05d9\u05e0\u05d9\u05de\u05dc\u05d9 \u05e9\u05dc {{units_limitation}} \u05d9\u05d7\u05d9\u05d3\u05d5\u05ea.",
+		"forumDeleteTopic" 		: "\u05de\u05d7\u05d9\u05e7\u05ea \u05e0\u05d5\u05e9\u05d0 \u05ea\u05e1\u05d9\u05e8 \u05dc\u05e6\u05de\u05d9\u05ea\u05d5\u05ea \u05d2\u05dd \u05d0\u05ea \u05db\u05dc \u05d4\u05ea\u05d2\u05d5\u05d1\u05d5\u05ea \u05d4\u05e7\u05e9\u05d5\u05e8\u05d5\u05ea \u05d0\u05dc\u05d9\u05d5. \u05d4\u05d0\u05dd \u05d0\u05ea\u05d4 \u05d1\u05d8\u05d5\u05d7 \u05e9\u05d1\u05e8\u05e6\u05d5\u05e0\u05da \u05dc\u05de\u05d7\u05d5\u05e7 \u05d0\u05d5\u05ea\u05d5?",
+		"forumDeleteTopicTitle" 	: "\u05de\u05d7\u05e7 \u05e0\u05d5\u05e9\u05d0",
+		"forumDeleteReply" 		: "\u05d4\u05d0\u05dd \u05d0\u05ea\u05d4 \u05d1\u05d8\u05d5\u05d7 \u05e9\u05d1\u05e8\u05e6\u05d5\u05e0\u05da \u05dc\u05de\u05d7\u05d5\u05e7 \u05d0\u05ea \u05d4\u05ea\u05d2\u05d5\u05d1\u05d4 \u05d4\u05d6\u05d5?",
+		"forumDeleteReplyTitle" 	: "\u05de\u05d7\u05e7 \u05d0\u05ea \u05d4\u05ea\u05d2\u05d5\u05d1\u05d4",
+		"forumNewTopic" 	: "\u05e0\u05d5\u05e9\u05d0 \u05d7\u05d3\u05e9",
+		"forumCreateNewTopic" 	: "\u05e6\u05d5\u05e8 \u05e0\u05d5\u05e9\u05d0 \u05d7\u05d3\u05e9",
+		"forumCountOfTotalPosts" 	: "\u05e4\u05e8\u05e1\u05dd \u05e1\u05da \u05db\u05d5\u05dc\u05dc \u05e9\u05dc {{numbers_of_posts}} \u05e4\u05d5\u05e1\u05d8\u05d9\u05dd",
+		"forumSearchPlaceholder" 	: "\u05d7\u05e4\u05e9 \u05e0\u05d5\u05e9\u05d0\u05d9\u05dd, \u05e4\u05d5\u05e1\u05d8\u05d9\u05dd \u05d0\u05d5 \u05e7\u05d8\u05d2\u05d5\u05e8\u05d9\u05d5\u05ea",
+		"forumLastReply" 	: "\u05ea\u05d2\u05d5\u05d1\u05d4 \u05d0\u05d7\u05e8\u05d5\u05e0\u05d4",
+		"follow" 	: "\u05e2\u05e7\u05d5\u05d1",
+		"following" 	: "\u05e2\u05d5\u05e7\u05d1",
+		"forumReplies" 	: "\u05ea\u05d2\u05d5\u05d1\u05d5\u05ea",
+		"forumFrequentPosters" 	: "\u05de\u05e2\u05dc\u05d9 \u05e4\u05d5\u05e1\u05d8\u05d9\u05dd \u05dc\u05e2\u05d9\u05ea\u05d9\u05dd \u05ea\u05db\u05d5\u05e4\u05d5\u05ea",
+		"chooseCategory" 	: "\u05d1\u05d7\u05e8 \u05e7\u05d8\u05d2\u05d5\u05e8\u05d9\u05d4",
+		"linkCopiedToClipboard" 	: "\u05d4\u05e7\u05d9\u05e9\u05d5\u05e8 \u05d4\u05d5\u05e2\u05ea\u05e7 \u05d0\u05dc \u05d4\u05dc\u05d5\u05d7",
+		"edit" 	: "\u05e2\u05e8\u05d9\u05db\u05d4",
+		"created" 	: "\u05e0\u05d5\u05e6\u05e8",
+		"seeMore" 	: "\u05e8\u05d0\u05d4 \u05e2\u05d5\u05d3",
+		"options" 	: "\u05d0\u05e4\u05e9\u05e8\u05d5\u05d9\u05d5\u05ea",
+		"joined" 	: "\u05d4\u05e6\u05d8\u05e8\u05e3",
+		"posted" 	: "\u05e4\u05d5\u05e8\u05e1\u05dd",
+		"category" 	: "\u05e7\u05d8\u05d2\u05d5\u05e8\u05d9\u05d4",
+		"yes" 	: "\u05db\u05df",
+		"no" 	: "\u05dc\u05d0",
+		"insertTopicTitle" 	: "\u05d4\u05d5\u05e1\u05e3 \u05db\u05d5\u05ea\u05e8\u05ea \u05e0\u05d5\u05e9\u05d0",
+		"insertTopicMessage" 	: "\u05d4\u05db\u05e0\u05e1 \u05e0\u05d5\u05e9\u05d0 \u05d4\u05d5\u05d3\u05e2\u05d4",
+		"reply" 	: "\u05d4\u05d2\u05d1",
+		"addReply" 	: "\u05d4\u05d5\u05e1\u05e3 \u05ea\u05d2\u05d5\u05d1\u05d4",
+		"address" 	: "\u05db\u05ea\u05d5\u05d1\u05ea:",
+		"city" 	: "\u05e2\u05d9\u05e8:",
+		"state" 	: "\u05d0\u05e8\u05e5:",
+		"zipCode" 	: "\u05de\u05d9\u05e7\u05d5\u05d3:",
+		"instructions" 	: "\u05d4\u05d5\u05e8\u05d0\u05d5\u05ea:",
+		"country_v2" : "\u05de\u05d3\u05d9\u05e0\u05d4:",
+		"chooseDate": "\u05d1\u05d7\u05e8 \u05ea\u05d0\u05e8\u05d9\u05da",
+		"chooseDateAndTime": "\u05d1\u05d7\u05e8 \u05ea\u05d0\u05e8\u05d9\u05da \u05d5\u05e9\u05e2\u05d4",
+		"chooseTime": "\u05d1\u05d7\u05e8 \u05e9\u05e2\u05d4",
+		"total" : "\u05e1\u05d4''\u05db:",
+		"reviewBad": "\u05e8\u05e2",
+		"reviewPoor": "\u05dc\u05d0 \u05d8\u05d5\u05d1",
+		"reviewRegular": "\u05e8\u05d2\u05d9\u05dc",
+		"reviewGood": "\u05d8\u05d5\u05d1",
+		"reviewGorgeous": "\u05de\u05d4\u05de\u05dd",
+		"popupButtonSelected": "\u05d1\u05d7\u05e8",
+		"editHeader": "\u05e2\u05e8\u05d5\u05da \u05db\u05d5\u05ea\u05e8\u05ea",
+		"editFooter": "\u05e2\u05e8\u05d5\u05da \u05db\u05d5\u05ea\u05e8\u05ea \u05ea\u05d7\u05ea\u05d5\u05e0\u05d4",
+		"eCommerceSort": {
+			"sortBy": "\u05de\u05d9\u05d9\u05df \u05dc\u05e4\u05d9",
+			"recommended": "\u05de\u05d5\u05de\u05dc\u05e5",
+			"byHighPrice": "\u05de\u05d7\u05d9\u05e8, \u05de\u05d4\u05d2\u05d1\u05d5\u05d4 \u05dc\u05e0\u05de\u05d5\u05da",
+			"byLowerPriceBy": "\u05de\u05d7\u05d9\u05e8, \u05de\u05d4\u05e0\u05de\u05d5\u05da \u05dc\u05d2\u05d1\u05d5\u05d4",
+		},
+		"globalContactEmail": {
+			"fullName": "\u05e9\u05dd \u05de\u05dc\u05d0",
+			"description": "\u05ea\u05d9\u05d0\u05d5\u05e8",
+			"subject": "\u05e0\u05d5\u05e9\u05d0",
+			"contactUs": "\u05e6\u05d5\u05e8 \u05e7\u05e9\u05e8",
+			"infoBox": "\u05de\u05dc\u05d0 \u05d0\u05ea \u05d4\u05d8\u05d5\u05e4\u05e1 \u05d0\u05d5 \u05e9\u05dc\u05d7 \u05d3\u05d5\u05d0\"\u05dc \u05d9\u05e9\u05d9\u05e8\u05d5\u05ea \u05d0\u05dc: {{email_address}}",
+			"thankYouMessage": "\u05ea\u05d5\u05d3\u05d4 \u05e9\u05e4\u05e0\u05d9\u05ea \u05d0\u05dc\u05d9\u05e0\u05d5.",
+			"thankYouCloseBtn": "\u05e1\u05d2\u05d5\u05e8"		},
+		"editStructure": "\u05e2\u05e8\u05d5\u05da \u05de\u05d1\u05e0\u05d4",
+		"editLogo": "\u05e2\u05e8\u05d5\u05da \u05dc\u05d5\u05d2\u05d5",
+		"eventNumberOfTickets": "\u05d9\u05e9 \u05dc\u05d1\u05d7\u05d5\u05e8 \u05db\u05de\u05d4 \u05db\u05e8\u05d8\u05d9\u05e1\u05d9\u05dd \u05d1\u05e8\u05e6\u05d5\u05e0\u05da \u05dc\u05e8\u05db\u05d5\u05e9.",
+		"magicBtn": {
+			"contactUs": {
+				"title": "\u05e6\u05d5\u05e8 \u05e7\u05e9\u05e8",
+				"submitBtn": "\u05e6\u05d5\u05e8 \u05e7\u05e9\u05e8",
+				"ThankYouAfterSubmmit": "\u05ea\u05d5\u05d3\u05d4 \u05e9\u05e4\u05e0\u05d9\u05ea \u05d0\u05dc\u05d9\u05e0\u05d5. \u05e7\u05d9\u05d1\u05dc\u05e0\u05d5 \u05d0\u05ea \u05d4\u05d5\u05d3\u05e2\u05ea\u05da \u05d5\u05e0\u05e9\u05d9\u05d1 \u05e2\u05dc\u05d9\u05d4 \u05d1\u05e7\u05e8\u05d5\u05d1.",
+				"fields": {
+					"name": "\u05e9\u05dd",
+					"phone": "\u05d8\u05dc\u05e4\u05d5\u05df",
+					"emailAddress": "\u05db\u05ea\u05d5\u05d1\u05ea \u05d4\u05d3\u05d5\u05d0\u05e8 \u05d4\u05d0\u05dc\u05e7\u05d8\u05e8\u05d5\u05e0\u05d9 \u05e9\u05dc\u05da",
+					"emailAddressValidationdMsg": "\u05d0\u05e0\u05d0 \u05d4\u05d6\u05df \u05db\u05ea\u05d5\u05d1\u05ea \u05d3\u05d5\u05d0\u05e8 \u05d0\u05dc\u05e7\u05d8\u05e8\u05d5\u05e0\u05d9 \u05ea\u05e7\u05d9\u05e0\u05d4.",
+					"message": "\u05d4\u05d5\u05d3\u05e2\u05d4",
+					"requiredMsg": "\u05e9\u05d3\u05d4 \u05d7\u05d5\u05d1\u05d4.",
+				}
+			},
+			"copyLink": {
+				"success": "\u05d4\u05e7\u05d9\u05e9\u05d5\u05e8 \u05d4\u05d5\u05e2\u05ea\u05e7 \u05dc\u05dc\u05d5\u05d7 \u05e2\u05e8\u05d9\u05db\u05d4.",
+			},
+			"ExternalLinksPreventor": {
+				"title": "\u05d2\u05e8\u05e1\u05d4 \u05de\u05e4\u05d5\u05e8\u05e1\u05de\u05ea \u05d1\u05dc\u05d1\u05d3",
+				"previewExternalLinkMsg": "\u05d0\u05ea\u05d4 \u05de\u05e0\u05e1\u05d4 \u05dc\u05e6\u05d0\u05ea \u05dc\u05e7\u05d9\u05e9\u05d5\u05e8 \u05d7\u05d9\u05e6\u05d5\u05e0\u05d9 \u05de\u05de\u05e6\u05d1 \u05d4\u05ea\u05e6\u05d5\u05d2\u05d4 \u05d4\u05de\u05e7\u05d3\u05d9\u05de\u05d4 \u05e9\u05dc \u05d4\u05d0\u05ea\u05e8 \u05e9\u05dc\u05da. \u05d0\u05e0\u05d0 \u05e4\u05e8\u05e1\u05dd \u05d0\u05ea \u05d4\u05d0\u05ea\u05e8 \u05e9\u05dc\u05da \u05d5\u05e0\u05e1\u05d4 \u05e9\u05d5\u05d1 \u05de\u05db\u05ea\u05d5\u05d1\u05ea \u05d4\u05d0\u05ea\u05e8 \u05e9\u05dc\u05da.",
+			}
+		},
+		"fillOutAtLeastOneField": "\u05e2\u05dc\u05d9\u05da \u05dc\u05de\u05dc\u05d0 \u05e9\u05d3\u05d4 \u05d0\u05d7\u05d3 \u05dc\u05e4\u05d7\u05d5\u05ea \u05dc\u05e4\u05e0\u05d9 \u05e9\u05ea\u05d2\u05d9\u05e9 \u05d8\u05d5\u05e4\u05e1 \u05d6\u05d4."	};</script><!-- JavaScript Translations Object --> <!-- CSS Minimize Bottom --> <link rel="stylesheet" class="defer-css" data-href="//cdn-cms-s.f-static.net/versions/2/css/minimize-bottom.css?v=n6840" type="text/css" crossorigin="anonymous"> <!-- Minimize JS files --> <script src="//cdn-cms-s.f-static.net/versions/2/js/minimize_p1.js?v=n6840" crossorigin="anonymous"></script><script src="//cdn-cms-s.f-static.net/versions/2/js/minimize_p2.js?v=n6840" crossorigin="anonymous"></script><script src="//cdn-cms-s.f-static.net/versions/2/js/minimize_p3.js?v=n6840" crossorigin="anonymous"></script><script src="//cdn-cms-s.f-static.net/versions/2/js/minimize_p4.js?v=n6840" crossorigin="anonymous"></script><script src="//cdn-cms-s.f-static.net/versions/2/js/minimize_scripts.js?v=n6840" crossorigin="anonymous"></script> <!-- Website Statistics --> <script src="//cdn-cms-s.f-static.net/versions/2/wizard/statistics/js/generateStats-min.js?v=n6840" crossorigin="anonymous"></script> <!-- Floating Magic Button Update Preview Helper --><div> <div class="magic-button-container"> <!-- Contact Magic Button Settings--> <input type="hidden" id="magicButtonSettings" value="{&quot;active&quot;:false,&quot;items&quot;:{&quot;contactUs&quot;:{&quot;order&quot;:0,&quot;value&quot;:&quot;mistomeh@gmail.com&quot;,&quot;hasInput&quot;:true}},&quot;greeter&quot;:{&quot;value&quot;:&quot;&quot;,&quot;active&quot;:false},&quot;siteLogo&quot;:&quot;&quot;,&quot;siteName&quot;:&quot;\u05d1\u05d5\u05d0 \u05e0\u05e2\u05d6\u05d5\u05d1 \u05d0\u05ea \u05d2'\u05d5\u05df \u05d1\u05e8\u05d9\u05d9\u05e1&quot;}"> <!-- Share Magic Button Settings --> <input type="hidden" id="shareMagicButtonSettings" value="{&quot;active&quot;:false,&quot;items&quot;:{&quot;faceBook&quot;:{&quot;order&quot;:1,&quot;value&quot;:&quot;&quot;}},&quot;siteLogo&quot;:&quot;&quot;,&quot;siteName&quot;:&quot;\u05d1\u05d5\u05d0 \u05e0\u05e2\u05d6\u05d5\u05d1 \u05d0\u05ea \u05d2'\u05d5\u05df \u05d1\u05e8\u05d9\u05d9\u05e1&quot;}"> <!-- All Magic Buttons --> <div class="all-magic-buttons"></div> </div></div><!-- Pjax Helper --><div class="s123-front-last-element hidden"></div></body></html>
